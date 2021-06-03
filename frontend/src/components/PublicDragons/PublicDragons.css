@@ -1,0 +1,106 @@
+.breedOptions{
+    font-weight: bold;
+}
+
+
+.error{
+    color: red;
+    font-size: small;
+}
+
+
+.dislike-button{
+    cursor: pointer;
+    border-color: crimson;
+    border-width: 1px;
+    color: crimson;
+
+}
+
+.dislike-button:hover{
+    background-color: #ff7d7d;
+    color: crimson;
+}
+
+
+.like-button{
+    cursor: pointer;
+    border-color: #2196F3 ;
+    color:#2196F3;
+    border-width: 1px;
+
+}
+
+.like-button:hover{
+    background-color: #5bd1f5;
+    color:#2196F3
+}
+
+
+.likers{
+    cursor:pointer;
+    color:blue;
+    text-decoration:underline;
+  }
+
+  .likers:hover{
+      color: rgb(43, 113, 219);
+  }
+
+
+.help{
+    position: relative;
+    left: 0%;
+}
+
+
+ul.likers-list{
+    list-style-type: square;
+  }
+
+  .likers-item{
+    position: relative;
+    margin: 5px 0px 3px 10px;
+    float: left;
+    clear: left;
+  }
+
+
+.dragon-row{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    width: fit-content;
+    margin: auto;
+    height:fit-content;
+}
+
+
+.nickname{
+    font-weight: bold;
+}
+
+
+.table {
+	display: table;   
+	margin: 0 auto;
+}
+
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+	}
+    
+	ul#horizontal-list li {
+		display: inline;
+        float: left;
+        list-style: none;
+        flex: 0 0 33.333333%;
+        padding-top: 0%;
+	}
+
+
+

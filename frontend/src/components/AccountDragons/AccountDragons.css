@@ -1,0 +1,59 @@
+.table {
+	display: table;   
+	margin: 0 auto;
+}
+
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+
+	ul#horizontal-list li {
+		display: inline;
+        float: left;
+        list-style: none;
+        flex: 0 0 33.333333%;
+        padding-top: 0%;
+	}
+
+    
+    ul#horizontal-list li.account {
+		display: inline;
+        float: left;
+        list-style: none;
+        flex: 0 0 50%;
+        padding-top: 0%;
+	}
+
+
+.dragon-row{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    width: fit-content;
+    margin: auto;
+    height:fit-content;
+}
+
+
+.account-dragon-row-nickname-input-false{
+    background-color:rgb(235, 235, 235);
+}
+
+
+.account-dragon-row-input-false{
+    width: 75px;
+    height: 20px;
+    margin-right: 15px;
+    background-color:rgb(235, 235, 235);
+}
+
+.account-dragon-row-input-true{
+    width: 75px;
+    height: 20px;
+    margin-right: 15px;
+}

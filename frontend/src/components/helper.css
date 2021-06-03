@@ -1,0 +1,16 @@
+.top-bar-link-true{
+    color:rgb(193, 240, 255);
+    text-decoration:underline;
+}
+
+.top-bar-link-true:hover{
+    background-color: #ddd;
+    color: white;
+    cursor: pointer;
+}
+
+.top-bar-link-false{
+    color:rgb(0, 14, 211);
+    pointer-events: none;
+    cursor: default;
+}

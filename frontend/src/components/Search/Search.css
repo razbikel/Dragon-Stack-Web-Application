@@ -1,0 +1,106 @@
+.FilterBox{
+    position: absolute;
+    width: 550px;
+    height: 120px;
+    left: auto;
+    top: 195px;
+}
+
+
+.range-filter{
+    left:4500px;
+}
+
+
+.minFilter{
+    width: 60px;
+    height: 20px;
+    margin-right: 15px;
+    font-size: smaller;
+}
+
+
+.filterButton{
+    position: relative;
+    left: 240px;
+    top: -75%;
+}
+
+
+.pages-buttons{
+    position: relative;
+    top: -55px;
+    left: -90px;
+}
+
+
+.first-page-true{
+    background-color: #333;
+    color:white;
+}
+
+.first-page-true:focus{
+    background-color: #333;
+    color:white;
+}
+
+
+.page-button:focus{
+    background-color: #333;
+    color:white;
+}
+
+
+.clear-search-button{
+    position: relative;
+    top: -30px;
+}
+
+
+.table {
+	display: table;   
+	margin: 0 auto;
+}
+
+
+.search-results-headline{
+    position:relative;
+    left:-30%;
+    top: -20px;
+}
+
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;	
+}
+
+	ul#horizontal-list li {
+		display: inline;
+        float: left;
+        list-style: none;
+        flex: 0 0 33.333333%;
+        padding-top: 0%;
+	}
+
+
+.sort{
+    position:relative;
+    width: 550px;
+    height: 120px;
+    right: -60%;
+    top: -115px;
+}
+
+
+.sortButton{
+    position: relative;
+    right: -40%;
+    top: -90%;
+}
+
+

@@ -1,0 +1,78 @@
+.topbar {
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+.topbar span.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+.topbar span {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.user-info{
+    border: 2px solid white;
+    border-style: outset;
+    float: right;
+    margin-right: 50px;
+}
+
+
+.user-info-content{
+    color: rgb(255, 255, 255);
+}
+
+.log-out{
+    cursor: pointer;
+}
+
+.log-out:hover {
+    background-color: #ddd;
+    color: white;
+    cursor: pointer;
+}
+
+
+.info-span{
+    position: relative;
+    color: #f2f2f2;
+    width: 100%;
+    height: 47px;
+    top:7px;
+}
+
+.info-span:hover{
+    background-color: #ddd;
+    color: white;
+    cursor: pointer;
+}
+
+.auth-form{
+    position: relative;
+    top: 20px;
+}
+
+
+.auth-form-buttons{
+    position: relative;
+    top: 10px;
+    left: -20px;
+}
+
+.login_page_username_password{
+    margin-right: 15px;
+    margin: auto;
+    width: 60%;
+}

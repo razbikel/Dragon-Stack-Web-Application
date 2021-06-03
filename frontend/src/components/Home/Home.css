@@ -1,0 +1,60 @@
+.table {
+	display: table;   
+	margin: 0 auto;
+}
+
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;	
+}
+
+	ul#horizontal-list li {
+		display: inline;
+        float: left;
+        list-style: none;
+        flex: 0 0 33.333333%;
+        padding-top: 0%;
+	}
+
+
+.error{
+    color: red;
+    font-size: small;
+}
+
+
+.dragon-avatar-image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+
+.dragon-avatar-image-pattern {
+    position: absolute;
+}
+  
+
+.dragon-avatar-image-background {
+    position: absolute;
+}
+  
+
+.dragon-avatar-image {
+    z-index: 0;
+}
+
+
+.male{
+    color: blue;
+}
+
+
+.female{
+    color: red;
+}

@@ -1,0 +1,39 @@
+.notes-link{
+    position: relative;
+    right: -40%;
+    cursor:pointer;
+    color:blue;
+    text-decoration:underline;
+}
+
+.help-main{
+    display: inline-block;
+}
+
+.help{
+    position: relative;
+    left: 0%;
+}
+
+.help-headline{
+    position: relative;
+    left: -30%;
+}
+
+ul#help-list{
+    list-style-type: square;
+}
+
+ul#help-list li{
+    position: relative;
+    margin: 5px 0px 3px 10px;
+    float: left;
+    clear: left;
+}
+
+
+.notes-headline{
+    position: relative;
+    left: -40%;
+}
+
