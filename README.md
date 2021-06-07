@@ -50,7 +50,7 @@ for creating a unique session's string with the user's credentials. The username
 * A nice tool for evaluating dragons by knowing how popular they among other users. The server maintenance a table in the database with foreign keys of account-ID and dragon-ID, and by the user clicking the like/dislike button an UPDATE request is sent to the server. It checks if its like or dislike operation, and increases/decreases the likes field in the dragon table.
 * The server sends back to the client the updated number of likes of this dragon, and if the user like or dislike this dragon to know which button to render to the screen.
 * By clicking the number of people who like this dragon, a popup will be activated and would present a list of the accounts who likes this dragon.
-* As can be seen in the [Home page](#Home-page) screenshot, when the Home component is rendered to the screen an api GET request is send to the server and fetch from the database to most 10 popular dragons.
+* As can be seen in the [Home page](#Home-page) screenshot, when the Home component is rendered to the screen an API GET request is send to the server and fetch from the database to most 10 popular dragons.
 
 <br />
 
@@ -59,7 +59,7 @@ for creating a unique session's string with the user's credentials. The username
 ![search1](https://user-images.githubusercontent.com/53992561/120985152-03e6cd00-c784-11eb-9718-760bb87b18c7.png)
 
 * A searching system, with the option for filter the results and sort them by some paramters.
-* For more efficient search, and for minimize the load on the server (prevent from fetching a large and unnecessary amount of items every time) the search is take place in the backend of the app.
+* For more efficient search, and for minimizing the load on the server (prevent from fetching a large and unnecessary amount of items every time) the search is taking place in the backend of the app.
 * The search, filter and sort values are sent to the server in a GET request, and it Selects only 10 items each time and returns to the frontend a list of the searched dragons, and the amount of all the dragons that match the search values.
 * The frontend renders to the screen the list of dragons, and pages buttons bar so each button is the offset that needs to be taken when fetching 10 results from the database ('1' would fetch the first 10, '2' from index 10-19 and so on).
 
