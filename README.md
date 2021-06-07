@@ -47,7 +47,7 @@ for creating a unique session's string with the user's credentials. The username
 
 ![like](https://user-images.githubusercontent.com/53992561/120981676-94bba980-c780-11eb-844e-45830e103068.png)
 
-* A nice tool for evaluating dragons by knowing how popular they among other users. The server maintenance a table in the database with foreign keys of account-ID and dragon-ID, and by the user clicking the like/dislike button an UPDATE request is sent to the server. It checks if this like or dislike operation, and increases/decreases the likes field in the dragon table.
+* A nice tool for evaluating dragons by knowing how popular they among other users. The server maintenance a table in the database with foreign keys of account-ID and dragon-ID, and by the user clicking the like/dislike button an UPDATE request is sent to the server. It checks if its like or dislike operation, and increases/decreases the likes field in the dragon table.
 * The server sends back to the client the updated number of likes of this dragon, and if the user like or dislike this dragon to know which button to render to the screen.
 * By clicking the number of people who like this dragon, a popup will be activated and would present a list of the accounts who likes this dragon.
 * As can be seen in the [Home page](#Home-page) screenshot, when the Home component is rendered to the screen an api GET request is send to the server and fetch from the database to most 10 popular dragons.
