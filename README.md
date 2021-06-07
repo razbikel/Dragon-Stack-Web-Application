@@ -16,4 +16,5 @@ for creating a unique session's string with the user's credentials. The username
 * User must be logged in for navigate to the other links in the top bar, besides the Home and the Help pages. If user will try to access one of the top bar pages while not being logged in it will be redirected to the Help page.
 <br />
 
-### Get a new Dragon
+### Get a new Dragon, make him Public and set a Price
+* As can be seen in the Home page screenshot, by clicking 'new Dragon' button the user is become owner of a new dragon. This is a API GET request to the server, which generates a new dragon with some random traits, and assign this dragon to the account in the accountDragons table in the database, using the session's string from the http cookie for getting the account's details. 
