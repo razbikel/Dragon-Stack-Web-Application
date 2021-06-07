@@ -16,5 +16,11 @@ for creating a unique session's string with the user's credentials. The username
 * User must be logged in for navigate to the other links in the top bar, besides the Home and the Help pages. If user will try to access one of the top bar pages while not being logged in it will be redirected to the Help page.
 <br />
 
-### Get a new Dragon, make him Public and set a Price
-* As can be seen in the Home page screenshot, by clicking 'new Dragon' button the user is become owner of a new dragon. This is a API GET request to the server, which generates a new dragon with some random traits, and assign this dragon to the account in the accountDragons table in the database, using the session's string from the http cookie for getting the account's details. 
+#### Get a new Dragon, make him Public, set a Price and Account's Economic System
+* As can be seen in the Home page screenshot, by clicking 'new Dragon' button the user is become owner of a new dragon. This button sends a API GET request to the server, which generates a new dragon with some random traits, and assign this dragon to the account in the accountDragons table in the database, using the session's string from the http cookie for getting the account's details. 
+
+![userInfo1](https://user-images.githubusercontent.com/53992561/120970303-ee69a700-c773-11eb-985e-092c36d013e0.png)
+
+* In the Account Dragon page, a user can update his dragons name, set it public and set to it a price for selling, and if it is a female set price so other user's male dragon will be able to pay for breeding a new baby dragon. Of course after the user updates the details, a UPDATE request is sent to the server to update this data in the database.
+
+* **Buying** and **Breeding** special calls and update account's balance - In Public Dragon page (or in Search while filtering to public dragons) users can see other account's dragons which was set to public. User can buy those dragons, or breed a new baby dragon if his account can afford it financially.
