@@ -48,4 +48,8 @@ for creating a unique session's string with the user's credentials. The username
 * By clicking the number of people who like this dragon, a popup will be activated and would present a list of the accounts who likes this dragon.
 * As can be seen in the [Home page](#Home-page) screenshot, when the Home component is rendered to the screen an api GET request is send to the server and fetch from the database to most 10 popular dragons.
 
+<br />
+
+### Search, Sort and Filter
+
 
