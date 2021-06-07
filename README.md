@@ -31,7 +31,7 @@ for creating a unique session's string with the user's credentials. The username
 
 
 ### Buying and Breeding special calls and update account's balance
-* In Public Dragon page (or in [Search, Sort and Filter](#search,-sort-and-silter) while filtering to public dragons) users can see other account's dragons which was set to public. User can buy those dragons, or breed a new baby dragon if his account can afford it financially.
+* In Public Dragon page (or in [Search](#Home-page) while filtering to public dragons) users can see other account's dragons which was set to public. User can buy those dragons, or breed a new baby dragon if his account can afford it financially.
 
 ![breed](https://user-images.githubusercontent.com/53992561/120974020-4f937980-c778-11eb-8736-d24f791421c5.png)
 
