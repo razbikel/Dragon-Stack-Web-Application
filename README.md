@@ -27,3 +27,8 @@ for creating a unique session's string with the user's credentials. The username
 * In the Account Dragon page, a user can update his dragons name, set it public and set to it a price for selling, and if it is a female set price so other user's male dragon will be able to pay for breeding a new baby dragon. Of course after the user updates the details, a UPDATE request is sent to the server to update this data in the database.
 
 * **Buying** and **Breeding** special calls and update account's balance - In Public Dragon page (or in Search while filtering to public dragons) users can see other account's dragons which was set to public. User can buy those dragons, or breed a new baby dragon if his account can afford it financially.
+
+![breed](https://user-images.githubusercontent.com/53992561/120974020-4f937980-c778-11eb-8736-d24f791421c5.png)
+
+
+* By clicking the 'breed' buttin, the app fetch from the database the account's male dragons and presents them to the screen as button as well. Then, by clicking on of his dragons, the user activate a API POST request with the mother dragons ID as param, and the buyer account's details from the http cookie. 
