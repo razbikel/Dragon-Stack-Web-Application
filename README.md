@@ -18,7 +18,7 @@ for creating a unique session's string with the user's credentials. The username
 
 ### Get a new Dragon, make him Public, set a Price and Account's Economic System
 * As can be seen in the Home page screenshot, by clicking 'new Dragon' button the user is become owner of a new dragon. This button sends a API GET request to the server, which generates a new dragon with some random traits, and assign this dragon to the account in the accountDragons table in the database, using the session's string from the http cookie for getting the account's details.
-* In the Account Dragon page, a user can update his dragons name, set it public and set to it a price for selling, and if it is a female set price so other user's male dragon will be able to pay for breeding a new baby dragon. Of course after the user updates the details, a UPDATE request is sent to the server to update this data in the database. 
+* In the Account Dragon page, a user can update his dragons name, set it public and set to it a price for selling, and if it is a female set price so other user's male dragon will be able to pay for breeding a new baby dragon. Of course after the user updates the details, an UPDATE request is sent to the server to update this data in the database. 
 <br />
 
 ![userInfo1](https://user-images.githubusercontent.com/53992561/120970303-ee69a700-c773-11eb-985e-092c36d013e0.png)
@@ -40,4 +40,11 @@ for creating a unique session's string with the user's credentials. The username
 <br />
 
 ### Rate Dragon by Like/Dislike Button
+
+![like](https://user-images.githubusercontent.com/53992561/120981676-94bba980-c780-11eb-844e-45830e103068.png)
+
+* A nice tool for evaluating dragons by knowing how popular they among other users. The server maintenance a table in the database with foreign keys of account-ID and dragon-ID, and by the user clicking the like/dislike button an UPDATE request is sent to the server. It checks if this like or dislike operation, and increases/decreases the likes field in the dragon table.
+* The server sends back to the client the updated number of likes of this dragon, and if the user like or dislike this dragon to know which button to render to the screen.
+* As can be seen in the [Home page](###home) screenshot, when the Home component is rendered to the screen an api GET request is send to the server and fetch from the database to most 10 popular dragons.
+
 
