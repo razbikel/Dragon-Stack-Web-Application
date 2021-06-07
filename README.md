@@ -36,7 +36,7 @@ for creating a unique session's string with the user's credentials. The username
 ![breed](https://user-images.githubusercontent.com/53992561/120974020-4f937980-c778-11eb-8736-d24f791421c5.png)
 
 
-* By clicking the 'breed' button, the app fetch from the database the account's male dragons and presents them to the screen as button as well. Then, by clicking on of his dragons, the user activate a API POST request with the mother and the father dragons ID as params, and the buyer account's details from the http cookie.
+* By clicking the 'breed' button, the app fetch from the database the account's male dragons and presents them to the screen as button as well. Then, by clicking on one of his dragons, the user activate a API POST request with the mother and the father dragons ID as params, and the buyer account's details from the http cookie.
 * The server checks in the database if the buyer can afford the mother dragon's 'birth value' , increases the account's balance of the owner of the mother dragon with the 'birh value', decreases the account's balance of the owner of the father dragon with the same value in the account table in the database and finally, store a new baby dragon (with mixed traits of its parents) in the dragon table and account-dragon table for the buyer, the owner of the father dragon.
 * The server sends back to the browser a message which announce that the process completed successfully, and presents the new account's balance.
 * A similar logic is used when a user wants to buy a public dragon. Of course he gets the dragon he chose and not a new baby dragon.
