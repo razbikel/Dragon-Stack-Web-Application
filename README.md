@@ -10,6 +10,7 @@ Data is stored in **PostgreSQL** database management system.<br />
 ### Home page
 ![home1](https://user-images.githubusercontent.com/53992561/120931369-e66d2100-c6f9-11eb-9d75-c8b261a9d58c.png)
 <br />
+<br />
 ### Secured Authentication  
 * This application includes an authentication system - by clicking the button on the top right of the bar a user will activate a popup window.
 On this windows users can signup/login by pressing a button, which call HTTP POST request to the server with the user credentials as params.
