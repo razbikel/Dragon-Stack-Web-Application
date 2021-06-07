@@ -21,7 +21,7 @@ for creating a unique session's string with the user's credentials. The username
 <br />
 
 ### Get a new Dragon, make him Public, set a Price and Account's Economic System
-* As can be seen in the Home page screenshot, by clicking 'new Dragon' button the user is become owner of a new dragon. This button sends a API GET request to the server, which generates a new dragon with some random traits, and assign this dragon to the account in the accountDragons table in the database, using the session's string from the http cookie for getting the account's details.
+* As can be seen in the [Home page](#Home-page) screenshot, by clicking 'new Dragon' button the user is become owner of a new dragon. This button sends a API GET request to the server, which generates a new dragon with some random traits, and assign this dragon to the account in the accountDragons table in the database, using the session's string from the http cookie for getting the account's details.
 * In the Account Dragon page, a user can update his dragons name, set it public and set to it a price for selling, and if it is a female set price so other user's male dragon will be able to pay for breeding a new baby dragon. Of course after the user updates the details, an UPDATE request is sent to the server to update this data in the database. 
 <br />
 
