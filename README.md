@@ -52,4 +52,10 @@ for creating a unique session's string with the user's credentials. The username
 
 ### Search, Sort and Filter
 
+![search1](https://user-images.githubusercontent.com/53992561/120985152-03e6cd00-c784-11eb-9718-760bb87b18c7.png)
+
+* A searching system, with the option for filter the results and sort them by some paramters.
+* For more efficient search, and for minimize the load on the server (prevent from fetching a large and unnecessary amount of items every time) the search is take place in the backend of the app.
+* The search, filter and sort values are sent to the server in a GET request, and it Selects only 10 items each time and returns to the frontend a list of the searched dragons, and the amount of all the dragons that match the search values.
+* The frontend renders to the screen the list of dragons, and pages buttons bar so each button is the offset that needs to be taken when fetching 10 results from the database.
 
